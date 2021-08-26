@@ -8,9 +8,14 @@
 	</head>
 	<body>
 		<div id="app">
-			<img v-bind:src="picture" v-bind:alt="`${firstName} ${lastName}`"/>
+			<img
+				:class="gender"
+				v-bind:src="picture"
+				v-bind:alt="`${firstName} ${lastName}`"
+			/>
 			<h1>{{firstName}} {{lastName}}</h1>
 			<h1>Email: {{email}}</h1>
+			<button v-on:click="getUser()"></button>
 		</div>
 		<script src="https://unpkg.com/vue@3.0.5"></script>
 		<script src="app.js"></script>
