@@ -15,7 +15,7 @@
 			/>
 			<h1>{{firstName}} {{lastName}}</h1>
 			<h1>Email: {{email}}</h1>
-			<button v-on:click="getUser()"></button>
+			<button :class="gender" v-on:click="getUser()">Get Random User</button>
 		</div>
 		<script src="https://unpkg.com/vue@3.0.5"></script>
 		<script src="app.js"></script>
