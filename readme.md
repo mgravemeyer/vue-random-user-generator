@@ -1,4 +1,3 @@
-
 # Random User Generator
 
 <img src="https://user-images.githubusercontent.com/40543879/131123609-9ef985dc-8ead-41b8-9c0a-ba3cc05dc93a.png" alt="Svelte Logo" width="80"/>
